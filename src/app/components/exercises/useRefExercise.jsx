@@ -16,7 +16,7 @@ const UseRefExercise = () => {
             styleRef.current.style.width = "80px";
             styleRef.current.style.height = "150px";
             setText("Текст");
-            console.log(styleRef.current);
+//             console.log(styleRef.current);
         } else {
             styleRef.current.style.width = "60px";
             styleRef.current.style.height = "40px";
